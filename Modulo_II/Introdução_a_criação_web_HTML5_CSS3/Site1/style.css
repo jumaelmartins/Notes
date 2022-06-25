@@ -1,0 +1,33 @@
+body {
+  background-color: lightgray;
+}
+
+.Foto {
+  border: 3px solid white;
+  border-radius: 50%;
+  max-width: 10%;
+  max-height: 10%;
+  align-self: stretch; left: 300px;
+}
+
+#title, .subtitle, .post_title {
+  color: darkgray;
+}
+
+article {
+  background-color: white;
+  border: 2px solid darkgray;
+  border-radius: 2px;
+}
+
+.Post_Saitama {
+  background: white;
+  border: 2px solid darkgray;
+
+}
+
+footer {
+  background: white;
+  border: 2px solid darkgray;
+  border-radius: 2px;
+}
