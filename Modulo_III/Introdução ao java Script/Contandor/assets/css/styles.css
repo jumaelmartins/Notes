@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    align-items: center;
+    margin: 0;
+   font-family: Pacifico, cursive;
+}
+
+.container {
+    position: relative;
+    background-color: lightgray;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    height: 500px;
+}
+
+
+.titleBackground {
+    width: 100%;
+    position: relative;
+    background: linear-gradient(#e65758, #771d32, #f6a09a, #7e2423);
+    justify-content: center;
+    text-align: center;
+    animation: backgroundTransition 8s ease-in-out infinite;
+    background-size: 400% 400%;
+}
+
+
+.container h1 {
+    margin: 0;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    letter-spacing: 4px;
+}
+.container p {
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.container button {
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+}
+
+.botaoA {
+    position: absolute;
+    left: 37%;
+}
+
+.botaoB {
+    position: absolute;
+    right: 37%;
+}
+
+.container span {
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    left: 49%;
+    top: 25%;
+
+}
+
+button:hover {
+    background-color: darkred;
+    color: white;
+    font-size: 32px;
+    border-color: white;
+}
+
+@keyframes backgroundTransition {
+    0% {
+        background-position: 0% 80%;
+    }
+    50% {
+        background-position: 80% 100%;
+    }
+    100% {
+        background-position: 0% 90%;
+    }
+
+}

@@ -66,30 +66,3 @@
     top: 26px;
 }
 
-.navbar {
-    border: 3px solid green;
-    flex-flow: wrap row;
-    flex: 50%;
-    text-align: center;
-    justify-content: center;
-}
-.navbar a{
-    color: red;
-    text-decoration: none;
-    text-align: center;
-}
-.title {
-    display: flex;
-    color: red;
-    border: 3px solid green;
-    flex: 30%;
-    justify-content: center;
-    flex-flow: row;
-    align-items: center;
-}
-.profile {
-    display: flex;
-    border: 3px solid gray;
-    border-radius: 50%;
-    
-}
