@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    background-image: url(/Jogo_da_Memoria/assets/img/Galaxy_background.jfif);
+    
+}
+
+.title {
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px ;
+    text-align: center;
+    color: white;
+}
+
+
+.memory-game{
+    margin: 75px 0 0 26.8%;
+    position: absolute;
+    height: 640px;
+    width: 640px;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1000px;
+}
+.card:active {
+    transform: scale(0.97);
+    transition: transform 0.3s;
+}
+
+.card {
+    height: calc(24.85% - 10px);
+    width: calc(20% - 10px);
+    margin: 5px;
+    position: relative;
+    box-shadow: 1px 1px 1px rgba(1, 1, 1, 3);
+    cursor: pointer; 
+    transform: scale(1);  
+    transform-style: preserve-3d;
+    transition: transform 0.9s; 
+}
+
+.card-front, .card-back {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    position: absolute;
+    border-radius: 5px;
+    background-color: white;
+    backface-visibility: hidden;
+}
+
+.card-front {
+    transform: rotateY(180deg);
+}
+
+/* flipcard animation*/
+
+.card.flip  {
+    transform: rotateY(180deg);
+}
+
+
+
+
